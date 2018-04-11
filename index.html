@@ -7,80 +7,99 @@
 
 		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 		<link rel = "stylesheet" href = "css/style.css">
-		<script> src= "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"</script>
-	
+		<script src= "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	</head>
 	<body>
-		
+		<div id = "social">
+			<a href="#">Twitter</a> 
+			<a href="#">Facebook</a> 
+			<a href="#">Google Plus</a> 
+		</div>
 		<header>
-			<div>
-				<h1> Exceptional </h1>
-				<h2> Realty Group </h2>
-			</div>
-			<!-- links -->
-			<nav>
-				<a href="index.html"> About </a>
-				<a href="new-properties.html"> New Properties </a>
-				<a href="real-estate-listings.html"> Listings </a>
-				<a href="market-report.html"> Market Report </a>
-				<a href="contact.html"> Contact </a>
-				<a href="http://wwww.eranetwork.net" target = "_blank"> ERA Network </a>
-			</nav>
+			<div class = "wrapper clearfix"> 
+				<div id = "logo">
+					<h1> Exceptional </h1>
+					<h2> Realty Group </h2>
+				</div>
+				<!-- links -->
+				<nav>
+					<a href="index.html"> About </a>
+					<a href="new-properties.html"> New Properties </a>
+					<a href="real-estate-listings.html"> Listings </a>
+					<a href="market-report.html"> Market Report </a>
+					<a href="contact.html"> Contact </a>
+					<a href="http://wwww.eranetwork.net" target = "_blank"> ERA Network </a>
+				</nav>
+			</div> <!-- wrapper -->
 		</header>
 
-		<section id="ERA filler">
-			<figure>
-				<img src="images/ERA.png" alt="Welcome to the new ERA."
-				title = "Full Circle, Beezies">
-				<figcaption>345 Carl Street Apt 12, Carrol Rd. Newark California- photo by Doormamu</figcaption>
-   			</figure>
-		</section>
+		<div class = "wrapper clearfix">
+			<section id="featured-property" class = "col-3 first">
+		      <figure>
+		        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+		        <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
+		      </figure>
 
-		<section id="promotional">
-			<figure>
-				<video controls>
-				  <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.mp4" type="video/mp4">
-				  <source src="real-estate.ogv" type="video/ogg">
-				  <p>Sorry your browser doesn't support HTML5 Video! Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a>.</p>
-				</video>
-			</figure>
-		</section>
+		      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+		    </section>
 
+			<section id="promotional" class = "col-2 first">
+				<figure>
+					<video controls>
+					  <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.mp4" type="video/mp4">
+					  <source src="real-estate.ogv" type="video/ogg">
+					  <p>Sorry your browser doesn't support HTML5 Video! Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a>.</p>
+					</video>
+				</figure>
+			</section>
 
-		<section id="details">
-			<div>
-				<h3> Contact </h3>
+			<section id="news" class = "col-1">
+				<h3> Company News </h3>
 				<p>
-					email: <a href = "mailto: jliurealestate@gmail.com"> jliurealestate@gmail.com </a>
-					<br>
-					phone: +1 4157873173
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
-				<h3> Correspondence </h3>
-					<address>
-						Exceptonal Realty <br>
-						P.O. Box 1111 <br>
-						San Francisco, CA 94133 
-					</address>
-				</div>
+			</section>
 
-				<div>
-					<h3> Links </h3>
-					<p>
-						<a href = "#" target="_blank"> Home Restoration </a> <br>
-						<a href = "#" target="_blank"> Affordable Mortgages </a> <br>
-						<a href = "#" target="_blank"> Professional Moving Crew </a> <br>
-					</p>
-				</div>
+		</div> <!-- wrapper -->
 
-				<div>
-					<h3> Follow </h3>
-					<p>
-						<a href = "https://youtube.com" target="_blank"> Youtube </a> <br>
-						<a href = "https://twitter.com" target="_blank"> Twitter </a> <br>
-						<a href = "https://reddit.com" target="_blank"> Reddit </a> <br>
-					</p>
+			<section id="details">
+				<div class = "wrapper clearfix">
+					<div class = "col-1 first">
+						<h3> Contact </h3>
+						<p>
+							email: <a href = "mailto: jliurealestate@gmail.com"> jliurealestate@gmail.com </a>
+							<br>
+							phone: +1 4157873173
+						</p>
+						<h3> Correspondence </h3>
+						<address>
+							Exceptonal Realty <br>
+							P.O. Box 1111 <br>
+							San Francisco, CA 94133 
+						</address>
+					</div>
 
-		</section>
+					<div class = "col-1">
+						<h3> Links </h3>
+						<p>
+							<a href = "#" target="_blank"> Home Restoration </a> <br>
+							<a href = "#" target="_blank"> Affordable Mortgages </a> <br>
+							<a href = "#" target="_blank"> Professional Moving Crew </a> <br>
+						</p>
+					</div>
+
+					<div class = "col-1">
+						<h3> Follow </h3>
+						<p>
+							<a href = "https://youtube.com" target="_blank"> Youtube </a> <br>
+							<a href = "https://twitter.com" target="_blank"> Twitter </a> <br>
+							<a href = "https://reddit.com" target="_blank"> Reddit </a> <br>
+						</p>
+					</div>
+				</div> <!-- wrapper only for details -->
+			</section>
+		
 
 		<footer>
 		    &copy; 2018 Jeff Liu Creations. All Rights Reserved.
