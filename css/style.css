@@ -5,10 +5,15 @@
 
 /* ////// GLOBAL ///// */
 
+body {
+	font-size: 100%;
+}
+
 p{ /* select all <p> alements */
 	font-size: 16px;
 	line-height: 1.5em;
 }
+
 
 figcaption{
 	/*
@@ -182,9 +187,10 @@ header {
 /* ///// BACGKROUND ///// */
 
 /*//////// MEDIA ////// */
-img, video, audio
+img, video, audio, table, input, form
 {
 	max-width: 100%;
+	width: 100%;
 }
 
 
@@ -204,6 +210,13 @@ img, video, audio
 	width: 32%;
 }
 
+@media only screen and (max-width: 600px) {
+	.col-1{
+		width: 100%; 
+		float: none;
+	}
+}
+
 .col-2 {
 	float: left;
 	width: 66%;
@@ -220,6 +233,10 @@ img, video, audio
 	visibility: hidden;
 	height: 0;
 	line-height: 0;
+}
+
+.clear {
+	clear: both;
 }
 
 [class*="col-"]{
